@@ -1,6 +1,5 @@
 version: 2
 endpoint: http://graphql.mint.local
-secret: admin
 metadata_directory: metadata
 actions:
   kind: synchronous

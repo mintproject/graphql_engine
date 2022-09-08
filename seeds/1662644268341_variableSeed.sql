@@ -1,25 +1,3 @@
---
--- PostgreSQL database dump
---
-
--- Dumped from database version 11.8
--- Dumped by pg_dump version 11.8
-
-SET statement_timeout = 0;
-SET lock_timeout = 0;
-SET idle_in_transaction_session_timeout = 0;
-SET client_encoding = 'UTF8';
-SET standard_conforming_strings = on;
-SELECT pg_catalog.set_config('search_path', '', false);
-SET check_function_bodies = false;
-SET xmloption = content;
-SET client_min_messages = warning;
-SET row_security = off;
-
---
--- Data for Name: variable; Type: TABLE DATA; Schema: public; Owner: hasurauser
---
-
 INSERT INTO public.variable (id, description, url, name, is_adjustment_variable, is_indicator, intervention_id) VALUES ('model__simulation_start_time', 'Start year for the simulation', NULL, 'Start year for the simulation', 't', 'f', NULL);
 INSERT INTO public.variable (id, description, url, name, is_adjustment_variable, is_indicator, intervention_id) VALUES ('soil_profile_bottom_water__drainage_volume_flux', '                    <h4 id=''http://www.geoscienceontology.org/svo/svl/variable#%28soil_profile_bottom%29%40role%7Esource_water%40role%7Emain_draining__drainage_volume_flux''>soil_profile_bottom_water__drainage_volume_flux</h4><p>                        <p>This variable has the recorded  phenomenon <a href=http://www.geoscienceontology.org/svo/svl/phenomenon#%28soil_profile_bottom%29%40role%7Esource_water%40role%7Emain_draining>(soil_profile_bottom)@role~source_water@role~main_draining</a></p><p>This variable has the recorded  process <a href=http://www.geoscienceontology.org/svo/svl/process#draining>draining</a></p><p>This variable has the recorded participant phenomenon:</p><div><ul><li><a href="http://www.geoscienceontology.org/svo/svl/matter#water">water</a></li><li><a href="http://www.geoscienceontology.org/svo/svl/phenomenon#soil_profile">soil_profile</a></li><li><a href="http://www.geoscienceontology.org/svo/svl/phenomenon#soil_profile_bottom">soil_profile_bottom</a></li></ul></div><p>This variable has the recorded participant matter <a href=http://www.geoscienceontology.org/svo/svl/matter#soil>soil</a></p><p>This variable has the recorded participant part <a href=http://www.geoscienceontology.org/svo/svl/part#bottom>bottom</a></p><p>This variable has the recorded participant abstraction <a href=http://www.geoscienceontology.org/svo/svl/abstraction#profile>profile</a></p><p>This variable has the recorded units L T^-1.</p><p>This variable has the recorded property <a href=http://www.geoscienceontology.org/svo/svl/property#drainage_volume_flux>drainage_volume_flux</a></p>                        </p>                        ', 'http://www.geoscienceontology.org/svo/svl/variable#%28soil_profile_bottom%29%40role%7Esource_water%40role%7Emain_draining__drainage_volume_flux', NULL, 'f', 'f', NULL);
 INSERT INTO public.variable (id, description, url, name, is_adjustment_variable, is_indicator, intervention_id) VALUES ('soil_water__volume_fraction', '                    <h4 id=''http://www.geoscienceontology.org/svo/svl/variable#soil%40medium_water__volume_fraction''>soil_water__volume_fraction</h4><p>                        <p>This variable has the recorded  phenomenon:</p><div><ul><li><a href="http://www.geoscienceontology.org/svo/svl/matter#water">water</a></li><li><a href="http://www.geoscienceontology.org/svo/svl/phenomenon#soil%40medium_water">soil@medium_water</a></li></ul></div><p>This variable has the recorded  matter <a href=http://www.geoscienceontology.org/svo/svl/matter#water>water</a></p><p>This variable has the recorded medium phenomenon <a href=http://www.geoscienceontology.org/svo/svl/matter#soil>soil</a></p><p>This variable has the recorded property <a href=http://www.geoscienceontology.org/svo/svl/property#volume_fraction>volume_fraction</a></p>                        </p>                        ', 'http://www.geoscienceontology.org/svo/svl/variable#soil%40medium_water__volume_fraction', NULL, 'f', 'f', NULL);
