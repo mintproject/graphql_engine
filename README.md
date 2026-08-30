@@ -1,5 +1,9 @@
 # graphql_schema
 
+> **This repository is read-only history.** The code moved to
+> [`mintproject/monorepo`](https://github.com/mintproject/monorepo), in the
+> `graphql_engine/` directory. Open issues and pull requests there.
+
 This repository contains the schema and metadata of the MINT GraphQL.
 
 ## How to run?
